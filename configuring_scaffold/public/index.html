@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container mt-3">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 border-bottom shadow-sm">
+            <h5 class="my-0 mr-md-auto font-weight-normal">
+                Educational Resources
+            </h5>
+        </div>
+
+        <section class="col-md-8 order-md-1 mt-4 mb-5">
+            <form id="QuestionForm">
+                <h3 class="mb-3">Ask a Question</h3>
+                <section class="mb-4">
+                    <label for="">Question Title</label>
+                    <input type="text" id="firstName" class="form-control">
+                </section>
+
+                <section class="mb-2">
+                    <label for="">Your Question</label>
+                    <textarea name="" id="contents" cols="30" rows="10" class="form-control"></textarea>
+                </section>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <section class="col-md-8 order-md-1 mt-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span>New Questions</span>
+            </h4>
+        </section>
+        <ul id="Questions" class="list-group mb-3"></ul>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>>

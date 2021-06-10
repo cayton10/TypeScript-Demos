@@ -1,0 +1,20 @@
+{
+  "name": "using-typescript-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node_modules/esmodules-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.5",
+    "esmodules-dev-server": "0.0.4",
+    "jquery": "^3.6.0"
+  }
+}
