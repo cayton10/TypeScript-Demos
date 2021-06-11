@@ -1,0 +1,16 @@
+{
+  "name": "routeconfigs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start_app": "node out/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "express": "^4.17.1"
+  }
+}
